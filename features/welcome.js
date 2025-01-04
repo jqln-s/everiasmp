@@ -7,10 +7,10 @@ export default async (client) => {
         if (Date.now() - member.user.createdAt < 24 * 60 * 60 * 1000) {
             try {
                 member.user.send('You have been kicked because your account is less than a day old.');
-                await member.kick({ reason: 'New account' });
             } catch (error) {
                 console.error('Unable to kick user:', error);
             }
+            await member.kick({ reason: 'New account' });
             return;
         }
 
