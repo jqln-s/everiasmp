@@ -29,7 +29,7 @@ export default async (client) => {
             .setFooter({ text: 'Thank you for joining Everia!' })
 
         channel.send({
-            content: `<@${member.user.id}>`,
+            content: `<@${member.user.id}> verify in <#1321209314840416304> *!*`,
             embeds: [embed]
         });
     });
