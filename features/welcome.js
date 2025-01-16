@@ -4,16 +4,6 @@ export default async (client) => {
     client.on(Events.GuildMemberAdd, async (member) => {
         const channel = await client.channels.fetch('1321209314840416306');
 
-        if (Date.now() - member.user.createdAt < 24 * 60 * 60 * 1000) {
-            try {
-                member.user.send('You have been kicked because your account is less than a day old.');
-            } catch (error) {
-                console.error('Unable to kick user:', error);
-            }
-            await member.kick({ reason: 'New account' });
-            return;
-        }
-
         const embed = new EmbedBuilder()
             .setColor(0x2b2d31)
             .setTitle('**Welcome *!*   ⋆ ｡˚ ⋆**')
