@@ -10,7 +10,7 @@ export default {
             .setColor(0x2b2d31)
             .setTitle('How to Join Everia on **Java Edition** ⋆ ｡˚ ⋆')
             .setDescription('<:f_everiadot:1322411330774241340> Open the Minecraft launcher and select **Java Edition**.\n' + 
-                            '<:g_everiadot:1322411242756898826> Set the installation version to `1.21.1` and click **Play**.\n' + 
+                            '<:g_everiadot:1322411242756898826> Set the installation version to `1.21.3` and click **Play**.\n' + 
                             '<:f_everiadot:1322411330774241340> Click **Multiplayer** on the main menu.\n' + 
                             '<:g_everiadot:1322411242756898826> Click **Add Server**.\n' + 
                             '<:f_everiadot:1322411330774241340> Type `play.everiasmp.com` in the **Server Address** field and click **Done**.\n' + 
