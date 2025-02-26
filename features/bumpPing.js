@@ -1,5 +1,5 @@
 export default (client) => {
-    setInterval(pingOwner, 1000 * 60 * 60 * 2);
+    setInterval(pingOwner, (1000 * 60 * 60 * 2) + (1000 * 60 * 30));
 
     function pingOwner() {
         const bumpChannel = client.channels.cache.get('1321209315427880966');
