@@ -10,5 +10,5 @@ export default (client) => {
             msg.delete();
         });
         }, 2 * 60 * 60 * 1000);
-    }
+    });
 }
