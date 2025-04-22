@@ -26,7 +26,9 @@ export default {
                             '<:g_everiadot:1322411242756898826> Scroll to the bottom of the screen and click **Add Server**.\n' + 
                             '<:f_everiadot:1322411330774241340> Type `play.everiasmp.com` in the **Server Address** field.\n' + 
                             '<:g_everiadot:1322411242756898826> Type `25565` in the **Port** field.\n' + 
-                            '<:f_everiadot:1322411330774241340> Click **Play** to join the SMP!')
+                            '<:f_everiadot:1322411330774241340> Click **Play** to join the SMP!\n' +
+                            '## Video Tutorials ⋆ ｡˚ ⋆\n' +
+                            '<:f_everiadot:1322411330774241340> [**Bedrock Mobile**](https://www.tiktok.com/t/ZTjjBy1X4/)')
             .setImage('https://i.imgur.com/8fD0ASX.png');
 
         message.channel.send({ embeds: [java, bedrock] });
